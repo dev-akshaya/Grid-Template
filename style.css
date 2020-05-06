@@ -1,0 +1,101 @@
+/* ---------- Common CSS ---------- */
+.container {
+  max-width: 75rem;
+  margin: auto;
+}
+.p-1 {
+  padding: 1rem;
+}
+.m-y-2 {
+  margin: 2rem 0;
+}
+.bg-color {
+  background-color: lightgrey;
+}
+.item {
+  text-align: center;
+  background-color: #6580e3;
+  padding: 2rem;
+  color: white;
+}
+
+/* ---------- Header ---------- */
+.grid-container-header {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1rem;
+}
+
+/* ---------- Main ---------- */
+.grid-container-main {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 1rem;
+}
+.grid-container-main .left {
+  display: grid;
+  grid-gap: 1rem;
+}
+.grid-container-main .right {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 1rem;
+}
+.grid-container-main .right .item-1-2 {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}
+.grid-container-main .right .item-3-4 {
+  grid-column: 3 / span 2;
+  grid-row: 2;
+}
+.grid-container-main .right .item-2-3 {
+  grid-column: 2 / span 2;
+  grid-row: 3;
+}
+
+/* ---------- Card ---------- */
+.grid-container-card {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1rem;
+}
+.grid-container-card .cards {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 1rem;
+}
+
+/* ---------- Article ---------- */
+.grid-container-article {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 1rem;
+}
+.grid-container-article .left {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 200px;
+  grid-gap: 1rem;
+}
+.grid-container-article .right {
+  display: grid;
+}
+
+/* ---------- Slider ---------- */
+.grid-container-slider {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 100px 100px;
+  grid-gap: 1rem;
+}
+.grid-container-slider .content {
+  grid-row: 1 / span2;
+  grid-column: 2;
+}
+
+/* ---------- Footer ---------- */
+.footer {
+  min-height: 150px;
+  text-align: center;
+}
